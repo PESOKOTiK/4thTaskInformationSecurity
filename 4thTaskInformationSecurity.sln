@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signer", "Signer\Signer.csproj", "{9201BE43-09CC-4D72-8A48-91274A205ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tamper", "Tamper\Tamper.csproj", "{7666CDF8-F9D5-4987-826D-78BA8F981561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verifier", "Verifier\Verifier.csproj", "{1D9E55E4-FE57-421B-8ECD-2BA6798A975E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9201BE43-09CC-4D72-8A48-91274A205ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9201BE43-09CC-4D72-8A48-91274A205ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9201BE43-09CC-4D72-8A48-91274A205ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9201BE43-09CC-4D72-8A48-91274A205ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7666CDF8-F9D5-4987-826D-78BA8F981561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7666CDF8-F9D5-4987-826D-78BA8F981561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7666CDF8-F9D5-4987-826D-78BA8F981561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7666CDF8-F9D5-4987-826D-78BA8F981561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9E55E4-FE57-421B-8ECD-2BA6798A975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9E55E4-FE57-421B-8ECD-2BA6798A975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9E55E4-FE57-421B-8ECD-2BA6798A975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9E55E4-FE57-421B-8ECD-2BA6798A975E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D221B94B-2A13-4544-B513-5A020E0944A8}
+	EndGlobalSection
+EndGlobal
